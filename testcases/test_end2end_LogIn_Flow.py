@@ -22,6 +22,7 @@ class TestCheckOut:
         driver.find_element_by_css_selector(".account").is_displayed()
         username= driver.find_element_by_css_selector(".account").text
         print("user name :" ,username)
+        assert username in "Nirmal Jain"
         driver.find_element_by_css_selector(".logout").click()
         driver.find_element_by_css_selector(".login").is_displayed()
         driver.quit()
