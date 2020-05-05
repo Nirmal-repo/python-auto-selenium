@@ -12,6 +12,7 @@ class HomePage():
     contactus_link = (By.CSS_SELECTOR,"#contact-link a")
     search_input = (By.CSS_SELECTOR,"#search_query_top"	)
     search_icon = (By.CSS_SELECTOR, "button[name='submit_search']")
+    accountname_text = (By.CSS_SELECTOR,".account")
 
     def getSignInLink(self):
         return self.driver.find_element(*HomePage.signIn_link)
@@ -27,6 +28,9 @@ class HomePage():
 
     def getSearchButton(self):
         return self.driver.find_element(*HomePage.search_icon)
+
+    def getAccountName(self):
+        return self.driver.find_element(*HomePage.accountname_text)
 
 
 
