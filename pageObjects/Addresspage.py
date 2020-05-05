@@ -1,0 +1,2 @@
+class AddressPage:
+    pass

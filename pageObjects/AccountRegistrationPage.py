@@ -1,0 +1,2 @@
+class AccountRegistrationPage:
+    pass
