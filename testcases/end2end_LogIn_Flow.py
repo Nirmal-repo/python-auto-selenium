@@ -10,6 +10,7 @@ class TestLogin:
     def test_validLogin(self):
         baseUrl="http://automationpractice.com/index.php"
         driver = webdriver.Chrome(executable_path="../drivers/chromedriver.exe")
+        driver.delete_all_cookies()
         driver.maximize_window()
         driver.implicitly_wait(3)
         print("Chrome driver is selected ....")

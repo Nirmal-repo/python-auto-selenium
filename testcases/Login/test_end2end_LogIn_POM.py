@@ -21,7 +21,7 @@ class TestLogin:
         print("page title : " , driver.title)
         homepage = HomePage(driver)
         loginpage = homepage.click_SignIn()
-        loginpage .login("nirmal@yopmail.com","jain1985$")
+        loginpage.login("nirmal@yopmail.com","jain1985$")
 
         username = homepage.getAccountName().text
         print("Login sucessfull and user loged in with ", username, "user id ")
@@ -43,5 +43,6 @@ class TestLogin:
         errorMsg = loginpage.getErrorMessage_text().text
         print("Error Message :" ,errorMsg)
         assert "An email address required." in errorMsg
+        driver.quit()
 
 

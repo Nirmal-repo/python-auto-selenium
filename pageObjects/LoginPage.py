@@ -30,9 +30,15 @@ class LoginPage():
     def getErrorMessage_text(self):
         return self.driver.find_element(*LoginPage.loginError_message)
 
+    def enterEmail(self,email):
+        self.getEmailId_input().send_keys(email)
+
+    def enterPassword(self, pwd):
+        self.getPassword_input().send_keys(pwd)
+
     def login(self,username,password):
-        self.getEmailId_input().send_keys(username)
-        self.getPassword_input().send_keys(password)
+        self.enterEmail(username)
+        self.enterPassword(password)
         self.getSignIn_button().click()
 
 
