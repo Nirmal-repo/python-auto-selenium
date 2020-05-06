@@ -27,6 +27,7 @@ class TestAccountRegistration:
         registeredMessage = accountregister.getExistingUserMsg().text
         print("All ready Registered Message : ", registeredMessage)
         assert registeredMessage in accountregister.duplicateMsg
+        driver.quit()
 
 
 

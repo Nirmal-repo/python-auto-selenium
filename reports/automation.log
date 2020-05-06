@@ -1,0 +1,4 @@
+05/06/2020 08:12:33 PM - SeleniumDrivers - INFO: Element found  locator: search_query_top with locator type is :id
+05/06/2020 08:12:34 PM - SeleniumDrivers - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/06/2020 08:12:34 PM - SeleniumDrivers - INFO: Element found  locator: submit_search with locator type is :name
+05/06/2020 08:12:36 PM - SeleniumDrivers - INFO: clicked on elements with locators :submit_search with locator type is :name

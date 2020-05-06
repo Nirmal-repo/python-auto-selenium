@@ -1,9 +1,12 @@
 from traceback import print_stack
 
 from selenium.webdriver.common.by import By
+import utilities.Custom_Logger as cl
+import logging
 
 
 class SeleniumDrivers:
+    log =cl.customLogger(logging.DEBUG)
     def __init__(self,driver):
         self.driver = driver
 
@@ -39,9 +42,9 @@ class SeleniumDrivers:
 
         try:
             element = self.driver.find_element(byType, self.locatorname)
-            print("Element found  locator: " + self.locatorname + " with locator type is :" + self.locator_type)
+            self.log.info("Element found  locator: " + self.locatorname + " with locator type is :" + self.locator_type)
         except:
-            print("Element not found  locator: "+ self.locatorname + " with locator type is :" + self.locator_type)
+            self.log.info("Element not found  locator: "+ self.locatorname + " with locator type is :" + self.locator_type)
         return element
 
     def getElementList(self, element_locator):
@@ -64,9 +67,9 @@ class SeleniumDrivers:
             if locator:
                 element = self.getElement(locator)
             element.send_keys(data)
-            print("Sent " + data + " on element with locators :" + self.locatorname + " with locator type is :" + self.locator_type)
+            self.log.info("Sent " + data + " on element with locators :" + self.locatorname + " with locator type is :" + self.locator_type)
         except:
-            print("Cannot send data on the element with locator:" + self.locatorname+ " with locator type is :" + self.locator_type)
+            self.log.info("Cannot send data on the element with locator:" + self.locatorname+ " with locator type is :" + self.locator_type)
             print_stack()
 
     def clickElement(self,locator):
@@ -75,9 +78,9 @@ class SeleniumDrivers:
             if locator:
                 element = self.getElement(locator)
             element.click()
-            print("clicked on elements with locators :" + self.locatorname + " with locator type is :" + self.locator_type)
+            self.log.info("clicked on elements with locators :" + self.locatorname + " with locator type is :" + self.locator_type)
         except:
-            print("Cannot click on the  element with locator: " + self.locatorname + " with locator type is :" + self.locator_type)
+            self.log.info("Cannot click on the  element with locator: " + self.locatorname + " with locator type is :" + self.locator_type)
             print_stack()
 
     def isElementDisplayed(self,locator):
