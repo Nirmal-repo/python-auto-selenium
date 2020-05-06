@@ -7,8 +7,8 @@ class SeleniumDrivers:
     def __init__(self,driver):
         self.driver = driver
 
-    locator_type= None
-    locatorname=None
+    locator_type = None
+    locatorname = None
 
 
     def getByType(self,locatorType):
@@ -30,7 +30,6 @@ class SeleniumDrivers:
 
         return  False
 
-
     def getElement(self, element_locator):
         element = None
         byType = element_locator[0]
@@ -40,6 +39,20 @@ class SeleniumDrivers:
 
         try:
             element = self.driver.find_element(byType, self.locatorname)
+            print("Element found  locator: " + self.locatorname + " with locator type is :" + self.locator_type)
+        except:
+            print("Element not found  locator: "+ self.locatorname + " with locator type is :" + self.locator_type)
+        return element
+
+    def getElementList(self, element_locator):
+        element = None
+        byType = element_locator[0]
+        self.locator_type=byType
+        self.locatorname=element_locator[1]
+        byType= self.getByType(byType)
+
+        try:
+            element = self.driver.find_elements(byType, self.locatorname)
             print("Element found  locator: " + self.locatorname + " with locator type is :" + self.locator_type)
         except:
             print("Element not found  locator: "+ self.locatorname + " with locator type is :" + self.locator_type)
@@ -66,6 +79,30 @@ class SeleniumDrivers:
         except:
             print("Cannot click on the  element with locator: " + self.locatorname + " with locator type is :" + self.locator_type)
             print_stack()
+
+    def isElementDisplayed(self,locator):
+        element = None
+        isDisplayed = False
+        try:
+            if locator:  # If locator is not empty
+                element = self.getElement(locator)
+            if element is not None:
+                isDisplayed =element.is_displayed()
+                print("Element is displayed on the page")
+            else:
+                print("Element not displayed on the page")
+            return isDisplayed
+        except:
+            print("Element not displayed on the page")
+            return False
+
+    def getTitle(self):
+        return self.driver.title
+
+
+
+
+
 
 
 
