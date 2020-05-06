@@ -14,6 +14,7 @@ class HomePage():
     search_icon = (By.CSS_SELECTOR, "button[name='submit_search']")
     accountname_text = (By.CSS_SELECTOR,".account")
 
+
     def getSignInLink(self):
         return self.driver.find_element(*HomePage.signIn_link)
 
@@ -45,5 +46,6 @@ class HomePage():
         self.getSignOutLink().click()
         loginpage = LoginPage(self.driver)
         return loginpage
+
 
 
