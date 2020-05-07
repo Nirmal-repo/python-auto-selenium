@@ -1,11 +1,14 @@
 import time
-
+import logging
+import utilities.Custom_Logger as cl
 from selenium.webdriver.common.by import By
 
 from base.Selenium_Drivers import SeleniumDrivers
+import utilities.Custom_Logger as cl
 
 
 class SearchPage(SeleniumDrivers):
+    log = cl.customLogger(logging.DEBUG)
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver

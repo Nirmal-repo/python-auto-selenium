@@ -1,7 +1,10 @@
 from selenium.webdriver.common.by import By
+import logging
+import utilities.Custom_Logger as cl
 
 
 class LoginPage():
+    log = cl.customLogger(logging.DEBUG)
     def __init__(self,driver):
         self.driver = driver
 
@@ -40,5 +43,6 @@ class LoginPage():
         self.enterEmail(username)
         self.enterPassword(password)
         self.getSignIn_button().click()
+
 
 

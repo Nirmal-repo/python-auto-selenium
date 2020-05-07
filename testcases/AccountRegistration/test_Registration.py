@@ -8,26 +8,25 @@ from selenium.webdriver.support import expected_conditions as EC
 
 from pageObjects.AccountRegistrationPage import AccountRegistrationPage
 from pageObjects.HomePage import HomePage
+import utilities.Custom_Logger as cl
+import logging
+import pytest
 
-
+@pytest.mark.usefixtures("setUp")
 class TestAccountRegistration:
+    log = cl.customLogger(logging.DEBUG)
     def test_existingUserRegistered(self):
-        baseUrl="http://automationpractice.com/index.php"
-        driver = webdriver.Chrome(executable_path="../../drivers/chromedriver.exe")
-        driver.maximize_window()
-        driver.implicitly_wait(3)
-        print("Chrome driver is selected ....")
-        driver.get(baseUrl)
-        print("page title : " , driver.title)
 
-        homepage = HomePage(driver)
-        accountregister = AccountRegistrationPage(driver)
+        homepage = HomePage(self.driver)
+        self.log.info("Chrome driver is selected ....")
+        self.log.info("page title : " , self.driver.title)
+        accountregister = AccountRegistrationPage(self.driver)
         loginpage = homepage.click_SignIn()
         accountregister.enterRegisteredEmail("nirmal@yopmail.com")
         registeredMessage = accountregister.getExistingUserMsg().text
-        print("All ready Registered Message : ", registeredMessage)
+        self.log.info("All ready Registered Message : ", registeredMessage)
         assert registeredMessage in accountregister.duplicateMsg
-        driver.quit()
+
 
 
 

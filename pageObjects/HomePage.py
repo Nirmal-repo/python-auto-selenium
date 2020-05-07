@@ -1,9 +1,12 @@
 from selenium.webdriver.common.by import By
 
 from pageObjects.LoginPage import LoginPage
+import logging
+import utilities.Custom_Logger as cl
 
 
 class HomePage():
+    log = cl.customLogger(logging.DEBUG)
     def __init__(self,driver):
         self.driver = driver
 
@@ -48,4 +51,7 @@ class HomePage():
         return loginpage
 
 
+    def verifyIsUserNameDisplayed(self):
+
+        return self.getAccountName().is_displayed()
 
