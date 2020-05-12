@@ -1,0 +1,13 @@
+05/12/2020 02:19:06 PM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 02:19:06 PM - TestSearch - INFO: page title : My Store
+05/12/2020 02:19:06 PM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 02:19:06 PM - TestStatus - INFO: ('******** Verification Sucesssfull******', 'Search Input text not present')
+05/12/2020 02:19:06 PM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 02:19:06 PM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 02:19:06 PM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 02:19:08 PM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 02:19:18 PM - TestStatus - INFO: ('******** Verification Sucesssfull******', 'Title page not matched...')
+05/12/2020 02:19:23 PM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/12/2020 02:19:23 PM - SearchPage - INFO: Getting text on element 1 result has been found.
+05/12/2020 02:19:23 PM - TestStatus - INFO: ('******** Verification Sucesssfull******', 'Search count is less than 1 ')
+05/12/2020 02:19:23 PM - TestStatus - INFO: Sucessful Search test PASSED

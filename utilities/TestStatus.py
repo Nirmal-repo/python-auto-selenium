@@ -27,7 +27,7 @@ class TestStatus(SeleniumDrivers):
 
     def markFinal(self, testName, result, resultMessage):
         self.setResult(result,resultMessage)
-        if "FAIL" in self.setResult():
+        if "FAIL" in self.resultList:
             self.log.error(testName + "FAILED")
             self.resultList.clear()
             assert True == False

@@ -51,7 +51,7 @@ class SearchPage(SeleniumDrivers):
             return status
 
     def verifyPageTitle(self):
-        if "Search - My Storess" in self.getTitle():
+        if "Search - My Store" in self.getTitle():
             print("page title is " ,self.getTitle())
             return True
         else:
