@@ -33,12 +33,12 @@ class TestSearch:
         result2= searchpage.verifyPageTitle()
         ts.setResult(result2, "Title page not matched...")
         print("page result assertion value is (result 2): ", result2)
-        assert result2 == True
+        #assert result2 == True
         time.sleep(5)
         result3 = searchpage.validateSearchCount()
-        ts.setResult(result3, "Search count is less than 1 ")
+        ts.markFinal("Sucessful Search test ",result3, "Search count is less than 1 ")
         print("Search Count assertion is (result 3) : " ,result3)
-        assert result3 == True
+        #assert result3 == True
 
 
 
