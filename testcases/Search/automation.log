@@ -11,3 +11,190 @@
 05/07/2020 06:32:30 PM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
 05/07/2020 06:32:30 PM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
 05/07/2020 06:32:34 PM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 09:38:21 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 09:38:21 AM - TestSearch - INFO: page title : My Store
+05/12/2020 09:38:21 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 09:38:21 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 09:38:21 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 09:38:23 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 09:38:33 AM - SearchPage - INFO: Element not found  locator: .heading-counter with locator type is :class name
+05/12/2020 09:38:33 AM - SearchPage - INFO: Cannot click on the  element with locator: .heading-counter with locator type is :class name
+05/12/2020 09:42:43 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 09:42:43 AM - TestSearch - INFO: page title : My Store
+05/12/2020 09:42:43 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 09:42:44 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 09:42:44 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 09:42:46 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 09:42:56 AM - SearchPage - INFO: Element not found  locator: .heading-counter with locator type is :class name
+05/12/2020 09:42:56 AM - SearchPage - INFO: Cannot click on the  element with locator: .heading-counter with locator type is :class name
+05/12/2020 10:17:34 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 10:17:34 AM - TestSearch - INFO: page title : My Store
+05/12/2020 10:17:34 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 10:17:35 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 10:17:35 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 10:17:45 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 10:19:43 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 10:19:43 AM - TestSearch - INFO: page title : My Store
+05/12/2020 10:19:43 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 10:19:44 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 10:19:44 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 10:19:45 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 10:20:00 AM - SearchPage - INFO: Element not found  locator: .heading-counter with locator type is :class name
+05/12/2020 10:20:00 AM - SearchPage - INFO: Failed to get an element from element 
+05/12/2020 10:20:51 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 10:20:51 AM - TestSearch - INFO: page title : My Store
+05/12/2020 10:20:51 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 10:20:52 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 10:20:52 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 10:20:59 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 10:22:22 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 10:22:22 AM - TestSearch - INFO: page title : My Store
+05/12/2020 10:22:22 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 10:22:22 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 10:22:22 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 10:22:26 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 10:22:41 AM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/12/2020 10:22:41 AM - SearchPage - INFO: Getting text on element 1 result has been found.
+05/12/2020 10:28:33 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 10:28:33 AM - TestSearch - INFO: page title : My Store
+05/12/2020 10:28:33 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 10:28:33 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 10:28:33 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 10:28:35 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 10:28:50 AM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/12/2020 10:28:50 AM - SearchPage - INFO: Getting text on element 1 result has been found.
+05/12/2020 10:44:22 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 10:44:22 AM - TestSearch - INFO: page title : My Store
+05/12/2020 10:44:22 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 10:44:23 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 10:44:23 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 10:44:24 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 10:44:40 AM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/12/2020 10:44:40 AM - SearchPage - INFO: Getting text on element 1 result has been found.
+05/12/2020 10:46:27 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 10:46:27 AM - TestSearch - INFO: page title : My Store
+05/12/2020 10:46:27 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 10:46:27 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 10:46:27 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 10:46:29 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 10:46:44 AM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/12/2020 10:46:44 AM - SearchPage - INFO: Getting text on element 1 result has been found.
+05/12/2020 10:47:36 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 10:47:36 AM - TestSearch - INFO: page title : My Store
+05/12/2020 10:47:36 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 10:47:37 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 10:47:37 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 10:47:39 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 10:47:54 AM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/12/2020 10:47:54 AM - SearchPage - INFO: Getting text on element 1 result has been found.
+05/12/2020 10:48:40 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 10:48:40 AM - TestSearch - INFO: page title : My Store
+05/12/2020 10:48:40 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 10:48:40 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 10:48:40 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 10:48:42 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 10:48:57 AM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/12/2020 10:48:57 AM - SearchPage - INFO: Getting text on element 1 result has been found.
+05/12/2020 10:49:33 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 10:49:33 AM - TestSearch - INFO: page title : My Store
+05/12/2020 10:49:33 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 10:49:33 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 10:49:33 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 10:49:36 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 10:49:51 AM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/12/2020 10:49:51 AM - SearchPage - INFO: Getting text on element 1 result has been found.
+05/12/2020 10:52:27 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 10:52:27 AM - TestSearch - INFO: page title : My Store
+05/12/2020 10:52:27 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 10:52:27 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 10:52:27 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 10:52:29 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 10:52:44 AM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/12/2020 10:52:44 AM - SearchPage - INFO: Getting text on element 1 result has been found.
+05/12/2020 10:54:29 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 10:54:29 AM - TestSearch - INFO: page title : My Store
+05/12/2020 10:54:29 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 10:54:29 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 10:54:29 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 10:54:31 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 10:54:46 AM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/12/2020 10:54:46 AM - SearchPage - INFO: Getting text on element 1 result has been found.
+05/12/2020 10:55:58 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 10:55:58 AM - TestSearch - INFO: page title : My Store
+05/12/2020 10:55:58 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 10:55:58 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 10:55:58 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 10:56:00 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 10:56:15 AM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/12/2020 10:56:15 AM - SearchPage - INFO: Getting text on element 1 result has been found.
+05/12/2020 10:57:31 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 10:57:31 AM - TestSearch - INFO: page title : My Store
+05/12/2020 10:57:31 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 10:57:31 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 10:57:31 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 10:57:33 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 10:57:48 AM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/12/2020 10:57:48 AM - SearchPage - INFO: Getting text on element 1 result has been found.
+05/12/2020 10:58:52 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 10:58:52 AM - TestSearch - INFO: page title : My Store
+05/12/2020 10:58:52 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 10:58:52 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 10:58:53 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 10:58:54 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 10:59:09 AM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/12/2020 10:59:09 AM - SearchPage - INFO: Getting text on element 1 result has been found.
+05/12/2020 11:02:44 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 11:02:44 AM - TestSearch - INFO: page title : My Store
+05/12/2020 11:02:44 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 11:03:51 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 11:03:51 AM - TestSearch - INFO: page title : My Store
+05/12/2020 11:03:51 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 11:03:51 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 11:03:51 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 11:03:51 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 11:03:53 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 11:04:08 AM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/12/2020 11:04:08 AM - SearchPage - INFO: Getting text on element 1 result has been found.
+05/12/2020 11:05:59 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 11:05:59 AM - TestSearch - INFO: page title : My Store
+05/12/2020 11:05:59 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 11:05:59 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 11:05:59 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 11:05:59 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 11:06:01 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 11:06:16 AM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/12/2020 11:06:16 AM - SearchPage - INFO: Getting text on element 1 result has been found.
+05/12/2020 11:09:49 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 11:09:49 AM - TestSearch - INFO: page title : My Store
+05/12/2020 11:09:49 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 11:09:49 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 11:09:49 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 11:09:49 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 11:09:52 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 11:10:07 AM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/12/2020 11:10:07 AM - SearchPage - INFO: Getting text on element 1 result has been found.
+05/12/2020 11:18:28 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 11:18:28 AM - TestSearch - INFO: page title : My Store
+05/12/2020 11:18:28 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 11:18:28 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 11:18:28 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 11:18:28 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 11:18:30 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 11:18:45 AM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/12/2020 11:18:45 AM - SearchPage - INFO: Getting text on element 1 result has been found.
+05/12/2020 11:19:27 AM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 11:19:27 AM - TestSearch - INFO: page title : My Store
+05/12/2020 11:19:27 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 11:19:27 AM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 11:19:27 AM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 11:19:27 AM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 11:19:29 AM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 12:30:54 PM - TestSearch - INFO: Chrome driver is selected ....
+05/12/2020 12:30:54 PM - TestSearch - INFO: page title : My Store
+05/12/2020 12:30:54 PM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 12:30:54 PM - TestStatus - INFO: ('******** Verification Sucesssfull******', 'Search Input text not present')
+05/12/2020 12:30:54 PM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/12/2020 12:30:54 PM - SearchPage - INFO: Sent skirt on element with locators :search_query_top with locator type is :id
+05/12/2020 12:30:54 PM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/12/2020 12:30:56 PM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/12/2020 12:31:06 PM - TestStatus - ERROR: ('******** Verification Failed******', 'Title page not matched...')

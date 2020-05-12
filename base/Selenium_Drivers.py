@@ -103,6 +103,20 @@ class SeleniumDrivers:
     def getTitle(self):
         return self.driver.title
 
+    def getText(self,locator):
+        element = None;
+        try:
+            if locator:
+                element = self.getElement(locator)
+            text =element.text
+            if len(text) != 0:
+                self.log.info("Getting text on element " + text)
+                text =text.strip()
+        except:
+            self.log.info("Failed to get an element from element ")
+            print_stack()
+            text = None
+        return text
 
 
 
