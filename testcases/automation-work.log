@@ -1,0 +1,18 @@
+
+05/13/2020 01:04:25 PM - TestAccountRegistration - INFO: Chrome driver is selected ....
+05/13/2020 01:04:46 PM - TestLogin - INFO: Chrome driver is selected ....
+05/13/2020 01:04:57 PM - TestLogin - INFO: Chrome driver is selected ....
+05/13/2020 01:05:20 PM - TestSearch - INFO: Chrome driver is selected ....
+05/13/2020 01:05:20 PM - TestSearch - INFO: page title : My Store
+05/13/2020 01:05:20 PM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/13/2020 01:05:20 PM - TestStatus - INFO: ('******** Verification Sucesssfull******', 'Search Input text not present')
+05/13/2020 01:05:20 PM - SearchPage - INFO: Element found  locator: search_query_top with locator type is :id
+05/13/2020 01:05:20 PM - SearchPage - INFO: Sent Dress on element with locators :search_query_top with locator type is :id
+05/13/2020 01:05:20 PM - SearchPage - INFO: Element found  locator: submit_search with locator type is :name
+05/13/2020 01:05:24 PM - SearchPage - INFO: clicked on elements with locators :submit_search with locator type is :name
+05/13/2020 01:05:34 PM - TestStatus - ERROR: ('******** Verification Failed******', 'Title page not matched...')
+05/13/2020 01:05:34 PM - TestStatus - INFO:  screenshot save to the directory ../screenshots/
+05/13/2020 01:05:39 PM - SearchPage - INFO: Element found  locator: .heading-counter with locator type is :css selector
+05/13/2020 01:05:39 PM - SearchPage - INFO: Getting text on element 7 results have been found.
+05/13/2020 01:05:39 PM - TestStatus - INFO: ('******** Verification Sucesssfull******', 'Search count is less than 1 ')
+05/13/2020 01:05:39 PM - TestStatus - ERROR: Sucessful Search test FAILED

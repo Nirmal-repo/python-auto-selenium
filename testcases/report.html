@@ -243,7 +243,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 13-May-2020 at 13:02:20 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
+    <p>Report generated on 13-May-2020 at 13:05:42 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -262,8 +262,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.8.2</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 35.19 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>4 tests ran in 90.88 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">3 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -277,12 +277,12 @@ function filter_table(elem) {
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
-          <td class="col-name">test_Search.py::TestSearch::test_sucessSearch</td>
-          <td class="col-duration">17.82</td>
+          <td class="col-name">Search/test_Search.py::TestSearch::test_sucessSearch</td>
+          <td class="col-duration">19.64</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;testcases.Search.test_Search.TestSearch object at 0x03E26D48&gt;<br/><br/>    def test_sucessSearch(self):<br/>    <br/>        self.log.info(&quot;Chrome driver is selected ....&quot;)<br/>        self.log.info(&quot;page title : &quot; + self.driver.title)<br/>        homepage = HomePage(self.driver)<br/>        searchpage=SearchPage(self.driver)<br/>        ts=TestStatus(self.driver)<br/>        result1 =searchpage.searchInput_text()<br/>        ts.setResult(result1,&quot;Search Input text not present&quot;)<br/>    <br/>       # assert result1 == True<br/>        print(&quot;Search input text box verification is (result 1): &quot;, result1)<br/>        searchpage.validtateSearch(&quot;Dress&quot;)<br/>        result2= searchpage.verifyPageTitle()<br/>        ts.setResult(result2, &quot;Title page not matched...&quot;)<br/>        print(&quot;page result assertion value is (result 2): &quot;, result2)<br/>        #assert result2 == True<br/>        time.sleep(5)<br/>        result3 = searchpage.validateSearchCount()<br/>&gt;       ts.markFinal(&quot;Sucessful Search test &quot;,result3, &quot;Search count is less than 1 &quot;)<br/><br/>test_Search.py:39: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;utilities.TestStatus.TestStatus object at 0x03EF0550&gt;, testName = &#x27;Sucessful Search test &#x27;, result = True, resultMessage = &#x27;Search count is less than 1 &#x27;<br/><br/>    def markFinal(self, testName, result, resultMessage):<br/>        self.setResult(result,resultMessage)<br/>        if &quot;FAIL&quot; in self.resultList:<br/>            self.log.error(testName + &quot;FAILED&quot;)<br/>            self.resultList.clear()<br/>&gt;           assert True == False<br/><span class="error">E           AssertionError</span><br/><br/>..\..\utilities\TestStatus.py:35: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m TestSearch:test_Search.py:22 Chrome driver is selected ....
+            <div class="log">self = &lt;testcases.Search.test_Search.TestSearch object at 0x04199DC0&gt;<br/><br/>    def test_sucessSearch(self):<br/>    <br/>        self.log.info(&quot;Chrome driver is selected ....&quot;)<br/>        self.log.info(&quot;page title : &quot; + self.driver.title)<br/>        homepage = HomePage(self.driver)<br/>        searchpage=SearchPage(self.driver)<br/>        ts=TestStatus(self.driver)<br/>        result1 =searchpage.searchInput_text()<br/>        ts.setResult(result1,&quot;Search Input text not present&quot;)<br/>    <br/>       # assert result1 == True<br/>        print(&quot;Search input text box verification is (result 1): &quot;, result1)<br/>        searchpage.validtateSearch(&quot;Dress&quot;)<br/>        result2= searchpage.verifyPageTitle()<br/>        ts.setResult(result2, &quot;Title page not matched...&quot;)<br/>        print(&quot;page result assertion value is (result 2): &quot;, result2)<br/>        #assert result2 == True<br/>        time.sleep(5)<br/>        result3 = searchpage.validateSearchCount()<br/>&gt;       ts.markFinal(&quot;Sucessful Search test &quot;,result3, &quot;Search count is less than 1 &quot;)<br/><br/>Search\test_Search.py:39: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;utilities.TestStatus.TestStatus object at 0x041B10E8&gt;, testName = &#x27;Sucessful Search test &#x27;, result = True, resultMessage = &#x27;Search count is less than 1 &#x27;<br/><br/>    def markFinal(self, testName, result, resultMessage):<br/>        self.setResult(result,resultMessage)<br/>        if &quot;FAIL&quot; in self.resultList:<br/>            self.log.error(testName + &quot;FAILED&quot;)<br/>            self.resultList.clear()<br/>&gt;           assert True == False<br/><span class="error">E           AssertionError</span><br/><br/>..\utilities\TestStatus.py:35: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m TestSearch:test_Search.py:22 Chrome driver is selected ....
 [32mINFO    [0m TestSearch:test_Search.py:23 page title : My Store
 [32mINFO    [0m SearchPage:Selenium_Drivers.py:48 Element found  locator: search_query_top with locator type is :id
 [32mINFO    [0m TestStatus:TestStatus.py:16 (&#x27;******** Verification Sucesssfull******&#x27;, &#x27;Search Input text not present&#x27;)
@@ -290,9 +290,36 @@ function filter_table(elem) {
 [32mINFO    [0m SearchPage:Selenium_Drivers.py:73 Sent Dress on element with locators :search_query_top with locator type is :id
 [32mINFO    [0m SearchPage:Selenium_Drivers.py:48 Element found  locator: submit_search with locator type is :name
 [32mINFO    [0m SearchPage:Selenium_Drivers.py:84 clicked on elements with locators :submit_search with locator type is :name
-[31m[1mERROR   [0m TestStatus:TestStatus.py:19 (&#x27;******** Verification Failed******&#x27;, &#x27;Title page not matched...&#x27;)
+[1m[31mERROR   [0m TestStatus:TestStatus.py:19 (&#x27;******** Verification Failed******&#x27;, &#x27;Title page not matched...&#x27;)
 [32mINFO    [0m TestStatus:Selenium_Drivers.py:140  screenshot save to the directory ../screenshots/
 [32mINFO    [0m SearchPage:Selenium_Drivers.py:48 Element found  locator: .heading-counter with locator type is :css selector
 [32mINFO    [0m SearchPage:Selenium_Drivers.py:115 Getting text on element 7 results have been found.
 [32mINFO    [0m TestStatus:TestStatus.py:16 (&#x27;******** Verification Sucesssfull******&#x27;, &#x27;Search count is less than 1 &#x27;)
-[31m[1mERROR   [0m TestStatus:TestStatus.py:33 Sucessful Search test FAILED<br/></div></td></tr></tbody></table></body></html>
+[1m[31mERROR   [0m TestStatus:TestStatus.py:33 Sucessful Search test FAILED<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">AccountRegistration/test_Registration.py::TestAccountRegistration::test_existingUserRegistered</td>
+          <td class="col-duration">3.62</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m TestAccountRegistration:test_Registration.py:21 Chrome driver is selected ....<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Login/test_Login.py::TestLogin::test_sucessFullLogin</td>
+          <td class="col-duration">11.12</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m TestLogin:test_Login.py:20 Chrome driver is selected ....<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Login/test_Login.py::TestLogin::test_loginFailed</td>
+          <td class="col-duration">3.42</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m TestLogin:test_Login.py:33 Chrome driver is selected ....<br/></div></td></tr></tbody></table></body></html>

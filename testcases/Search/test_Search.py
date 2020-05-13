@@ -29,7 +29,7 @@ class TestSearch:
 
        # assert result1 == True
         print("Search input text box verification is (result 1): ", result1)
-        searchpage.validtateSearch("skirt")
+        searchpage.validtateSearch("Dress")
         result2= searchpage.verifyPageTitle()
         ts.setResult(result2, "Title page not matched...")
         print("page result assertion value is (result 2): ", result2)

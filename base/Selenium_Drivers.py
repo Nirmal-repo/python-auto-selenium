@@ -1,3 +1,5 @@
+import os
+import time
 from traceback import print_stack
 
 from selenium.webdriver.common.by import By
@@ -117,6 +119,31 @@ class SeleniumDrivers:
             print_stack()
             text = None
         return text
+
+    def screenshot(self,resultMessage):
+        """
+        Take screenshot of current open webPage if test case fail
+        """
+        fileName = resultMessage+"."+str(round(time.time()*1000))+".png"
+        screenShotDirectory = "../screenshots/"
+        relativeFileName =screenShotDirectory +fileName
+
+        currentDirectory = os.path.dirname(__file__)
+        destinationFile = os.path.join(currentDirectory,relativeFileName)
+        destinationDirectory = os.path.join(currentDirectory, screenShotDirectory)
+
+        try:
+            if not os.path.exists((destinationDirectory)):
+                os.makedirs(destinationDirectory)
+            self.driver.save_screenshot(destinationFile)
+
+            self.log.info(" screenshot save to the directory " + screenShotDirectory)
+        except:
+            self.log.error("### Exception Occurred when taking screenshot")
+            print_stack()
+
+
+
 
 
 
